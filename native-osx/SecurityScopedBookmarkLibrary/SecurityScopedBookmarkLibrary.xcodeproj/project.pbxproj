@@ -1,0 +1,277 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAFEA02C1E5E483B000CD1A9 /* com_plexteq_nativeimpl_SecurityScopedBookmarks.h in Headers */ = {isa = PBXBuildFile; fileRef = FAFEA02A1E5E483B000CD1A9 /* com_plexteq_nativeimpl_SecurityScopedBookmarks.h */; };
+		FAFEA02D1E5E483B000CD1A9 /* com_plexteq_nativeimpl_SecurityScopedBookmarks.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFEA02B1E5E483B000CD1A9 /* com_plexteq_nativeimpl_SecurityScopedBookmarks.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FAFEA01A1E5E42D8000CD1A9 /* libSecurityScopedBookmarkLibrary.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libSecurityScopedBookmarkLibrary.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAFEA02A1E5E483B000CD1A9 /* com_plexteq_nativeimpl_SecurityScopedBookmarks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com_plexteq_nativeimpl_SecurityScopedBookmarks.h; sourceTree = "<group>"; };
+		FAFEA02B1E5E483B000CD1A9 /* com_plexteq_nativeimpl_SecurityScopedBookmarks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = com_plexteq_nativeimpl_SecurityScopedBookmarks.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAFEA0171E5E42D8000CD1A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAFEA0111E5E42D8000CD1A9 = {
+			isa = PBXGroup;
+			children = (
+				FAFEA01C1E5E42D8000CD1A9 /* SecurityScopedBookmarkLibrary */,
+				FAFEA01B1E5E42D8000CD1A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAFEA01B1E5E42D8000CD1A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAFEA01A1E5E42D8000CD1A9 /* libSecurityScopedBookmarkLibrary.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAFEA01C1E5E42D8000CD1A9 /* SecurityScopedBookmarkLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				FAFEA02A1E5E483B000CD1A9 /* com_plexteq_nativeimpl_SecurityScopedBookmarks.h */,
+				FAFEA02B1E5E483B000CD1A9 /* com_plexteq_nativeimpl_SecurityScopedBookmarks.m */,
+			);
+			path = SecurityScopedBookmarkLibrary;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		FAFEA0181E5E42D8000CD1A9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAFEA02C1E5E483B000CD1A9 /* com_plexteq_nativeimpl_SecurityScopedBookmarks.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		FAFEA0191E5E42D8000CD1A9 /* SecurityScopedBookmarkLibrary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAFEA0231E5E42D8000CD1A9 /* Build configuration list for PBXNativeTarget "SecurityScopedBookmarkLibrary" */;
+			buildPhases = (
+				FAFEA0161E5E42D8000CD1A9 /* Sources */,
+				FAFEA0171E5E42D8000CD1A9 /* Frameworks */,
+				FAFEA0181E5E42D8000CD1A9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SecurityScopedBookmarkLibrary;
+			productName = SecurityScopedBookmarkLibrary;
+			productReference = FAFEA01A1E5E42D8000CD1A9 /* libSecurityScopedBookmarkLibrary.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAFEA0121E5E42D8000CD1A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Plexteq OU";
+				TargetAttributes = {
+					FAFEA0191E5E42D8000CD1A9 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = FAFEA0151E5E42D8000CD1A9 /* Build configuration list for PBXProject "SecurityScopedBookmarkLibrary" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FAFEA0111E5E42D8000CD1A9;
+			productRefGroup = FAFEA01B1E5E42D8000CD1A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAFEA0191E5E42D8000CD1A9 /* SecurityScopedBookmarkLibrary */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAFEA0161E5E42D8000CD1A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAFEA02D1E5E483B000CD1A9 /* com_plexteq_nativeimpl_SecurityScopedBookmarks.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FAFEA0211E5E42D8000CD1A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CODE_SIGN_FLAGS = "CODE_SIGN_IDENTITY=\"\" CODE_SIGNING_REQUIRED=\"NO\" CODE_SIGN_ENTITLEMENTS=\"\" CODE_SIGNING_ALLOWED=\"NO\"";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FAFEA0221E5E42D8000CD1A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CODE_SIGN_FLAGS = "CODE_SIGN_IDENTITY=\"\" CODE_SIGNING_REQUIRED=\"NO\" CODE_SIGN_ENTITLEMENTS=\"\" CODE_SIGNING_ALLOWED=\"NO\"";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FAFEA0241E5E42D8000CD1A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/Frameworks/JavaVM.framework/Versions/A/Frameworks",
+					"$(SYSTEM_LIBRARY_DIR)/Frameworks/JavaVM.framework/Versions/A/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/jdk/include/darwin",
+					"$(SRCROOT)/jdk/include",
+				);
+				OTHER_CODE_SIGN_FLAGS = "CODE_SIGNING_ALLOWED=\"NO\" CODE_SIGN_ENTITLEMENTS=\"\" CODE_SIGNING_REQUIRED=\"NO\" CODE_SIGN_IDENTITY=\"\"\nCODE_SIGNING_REQUIRED=\"NO\"\nCODE_SIGN_ENTITLEMENTS=\"\"\nCODE_SIGN_IDENTITY=\"\"";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FAFEA0251E5E42D8000CD1A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/Frameworks/JavaVM.framework/Versions/A/Frameworks",
+					"$(SYSTEM_LIBRARY_DIR)/Frameworks/JavaVM.framework/Versions/A/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/jdk/include/darwin",
+					"$(SRCROOT)/jdk/include",
+				);
+				OTHER_CODE_SIGN_FLAGS = "CODE_SIGNING_ALLOWED=\"NO\" CODE_SIGN_ENTITLEMENTS=\"\" CODE_SIGNING_REQUIRED=\"NO\" CODE_SIGN_IDENTITY=\"\"\nCODE_SIGNING_REQUIRED=\"NO\"\nCODE_SIGN_ENTITLEMENTS=\"\"\nCODE_SIGN_IDENTITY=\"\"";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAFEA0151E5E42D8000CD1A9 /* Build configuration list for PBXProject "SecurityScopedBookmarkLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAFEA0211E5E42D8000CD1A9 /* Debug */,
+				FAFEA0221E5E42D8000CD1A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAFEA0231E5E42D8000CD1A9 /* Build configuration list for PBXNativeTarget "SecurityScopedBookmarkLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAFEA0241E5E42D8000CD1A9 /* Debug */,
+				FAFEA0251E5E42D8000CD1A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAFEA0121E5E42D8000CD1A9 /* Project object */;
+}
