@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FAFEA02C1E5E483B000CD1A9 /* com_plexteq_nativeimpl_SecurityScopedBookmarks.h in Headers */ = {isa = PBXBuildFile; fileRef = FAFEA02A1E5E483B000CD1A9 /* com_plexteq_nativeimpl_SecurityScopedBookmarks.h */; };
-		FAFEA02D1E5E483B000CD1A9 /* com_plexteq_nativeimpl_SecurityScopedBookmarks.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFEA02B1E5E483B000CD1A9 /* com_plexteq_nativeimpl_SecurityScopedBookmarks.m */; };
+		FAFEA02C1E5E483B000CD1A9 /* com_plexteq_ssb_nativeimpl_SecurityScopedBookmarks.h in Headers */ = {isa = PBXBuildFile; fileRef = FAFEA02A1E5E483B000CD1A9 /* com_plexteq_ssb_nativeimpl_SecurityScopedBookmarks.h */; };
+		FAFEA02D1E5E483B000CD1A9 /* com_plexteq_ssb_nativeimpl_SecurityScopedBookmarks.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFEA02B1E5E483B000CD1A9 /* com_plexteq_ssb_nativeimpl_SecurityScopedBookmarks.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FAFEA01A1E5E42D8000CD1A9 /* libSecurityScopedBookmarkLibrary.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libSecurityScopedBookmarkLibrary.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
-		FAFEA02A1E5E483B000CD1A9 /* com_plexteq_nativeimpl_SecurityScopedBookmarks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com_plexteq_nativeimpl_SecurityScopedBookmarks.h; sourceTree = "<group>"; };
-		FAFEA02B1E5E483B000CD1A9 /* com_plexteq_nativeimpl_SecurityScopedBookmarks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = com_plexteq_nativeimpl_SecurityScopedBookmarks.m; sourceTree = "<group>"; };
+		FAFEA02A1E5E483B000CD1A9 /* com_plexteq_ssb_nativeimpl_SecurityScopedBookmarks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com_plexteq_ssb_nativeimpl_SecurityScopedBookmarks.h; sourceTree = "<group>"; };
+		FAFEA02B1E5E483B000CD1A9 /* com_plexteq_ssb_nativeimpl_SecurityScopedBookmarks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = com_plexteq_ssb_nativeimpl_SecurityScopedBookmarks.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,8 +47,8 @@
 		FAFEA01C1E5E42D8000CD1A9 /* SecurityScopedBookmarkLibrary */ = {
 			isa = PBXGroup;
 			children = (
-				FAFEA02A1E5E483B000CD1A9 /* com_plexteq_nativeimpl_SecurityScopedBookmarks.h */,
-				FAFEA02B1E5E483B000CD1A9 /* com_plexteq_nativeimpl_SecurityScopedBookmarks.m */,
+				FAFEA02A1E5E483B000CD1A9 /* com_plexteq_ssb_nativeimpl_SecurityScopedBookmarks.h */,
+				FAFEA02B1E5E483B000CD1A9 /* com_plexteq_ssb_nativeimpl_SecurityScopedBookmarks.m */,
 			);
 			path = SecurityScopedBookmarkLibrary;
 			sourceTree = "<group>";
@@ -60,7 +60,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAFEA02C1E5E483B000CD1A9 /* com_plexteq_nativeimpl_SecurityScopedBookmarks.h in Headers */,
+				FAFEA02C1E5E483B000CD1A9 /* com_plexteq_ssb_nativeimpl_SecurityScopedBookmarks.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,7 +120,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAFEA02D1E5E483B000CD1A9 /* com_plexteq_nativeimpl_SecurityScopedBookmarks.m in Sources */,
+				FAFEA02D1E5E483B000CD1A9 /* com_plexteq_ssb_nativeimpl_SecurityScopedBookmarks.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
