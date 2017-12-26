@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/plexteq/PQSsbJNIBridge.svg?branch=feature/travis-ci)](https://travis-ci.org/plexteq/PQSsbJNIBridge)
+[![Build Status](https://travis-ci.org/plexteq/PQSsbJNIBridge.svg?branch=master)](https://travis-ci.org/plexteq/PQSsbJNIBridge)
 
 ## Synopsis
 
