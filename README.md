@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/plexteq/PQSsbJNIBridge.svg?branch=feature/travis-ci)](https://travis-ci.org/plexteq/PQSsbJNIBridge)
+
 ## Synopsis
 
 This project contains native OSX code and Java JNI bridge to it in order to implement Security scoped bookmarks for your Java application that needs to function in Apple's sandbox environment. 
