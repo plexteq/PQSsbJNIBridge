@@ -1,0 +1,2 @@
+language: objective-c
+script: cd native-osx/SecurityScopedBookmarkLibrary/; ./build.sh
